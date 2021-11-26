@@ -1,0 +1,27 @@
+textarea {
+    min-height: 400px;
+}
+.titles{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+#emails-view div{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display:flex;
+    justify-content: space-between; */
+    border: 1px solid #D3D3D3;
+    margin: 2px;
+    padding: 10px 10px 0px 10px;
+}
+.read{
+background-color: #D3D3D3;
+}
+#reply{
+    margin-right: 5px;
+}
+span{
+    font-weight: 700;
+}
